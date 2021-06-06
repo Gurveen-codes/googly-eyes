@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #86cbd2;
+}
+
+.face {
+	border-radius: 50%;
+	border: 2px solid transparent;
+	height: 400px;
+	width: 400px;
+	background-color: #e6f4f1;
+	box-shadow: 10px 10px 50px #c4cfcd, -1px -1px 30px #ffffff;
+}
+
+.eyes {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.eye {
+	border-radius: 50%;
+	box-shadow: 10px 10px 62px #c4cfcd, -10px -10px 62px #ffffff;
+	height: 150px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.eye .pupil {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	background-color: #111;
+	z-index: 1;
+}
